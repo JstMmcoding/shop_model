@@ -1,0 +1,111 @@
+/*
+Geral
+*/
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=IM+Fell+DW+Pica:ital@0;1&family=Satisfy&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  margin: 0;
+  font: "IM Fell DW Pica", serif;
+  font-weight: 100;
+  font-style: normal;
+  background-color: #F0EDE8;
+  font-size: 25px;
+}
+
+
+/*
+Barra de Navegação
+*/
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  flex-flow: row;
+  height: 100px;
+  background-color: #000000;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  flex: 20%;
+  padding-left: 5%;
+  text-align: left;
+  justify-content: left;
+  align-items: center;
+  font: "IM Fell DW Pica", serif;
+  font-style: cursive;
+  color: cF;
+
+  a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-flow: row;
+    flex-direction: row;
+    
+    img{
+    width: 100px;
+    margin-right: 2%;
+    }
+    h1{
+        text-align: left;
+        justify-content: center;
+        align-items: center;
+    }
+
+  }
+}
+
+.menu {
+  flex: 80%;
+  font-size: 16px;
+  text-align: right;
+  padding: 20px;
+}
+
+.menu a {
+  color: white;
+  padding: 13px 8px;
+  text-decoration: none;
+}
+
+.menu a:hover {
+  color: #66554D;
+  border-top: 4px solid #66554D;
+}
+
+.admin-btn{
+    color: red;
+}
+
+.admin-btn:hover{
+    border-top: 4px solid red;
+}
+
+#botao-login {
+  background: #66554D;
+  padding: 10px 25px;
+  color: white;
+  border-radius: 5px;
+  margin-right: 5%;
+  margin-left: 2%;
+}
+
+#botao-login:hover {
+  border: none;
+  background: #584136;
+}

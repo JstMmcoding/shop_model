@@ -1,0 +1,18 @@
+carrinho do usuário n está sendo salvo, a variável de sessão está sendo destruída e não recuperada.
+
+ - criar banco de dados pro carrinho baseado na chave estrangeira do usuário?
+ - criar coluna no usuário que o atribui a um banco de dados de carrinho**?
+
+
+
+automatizador de cadastro de categorias e produtos
+ - rever aula do python #
+
+
+dividir projeto em 2?
+ - projeto usuario
+ - projeto admin
+
+tela de dashboard
+ - usuario, perfil, editar perfil, favoritos, carrinho/ultimas compras, logout
+ 
